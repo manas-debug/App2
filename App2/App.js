@@ -16,13 +16,13 @@ import {
   StatusBar,
 } from 'react-native';
 
-import Home from './src/component/Home/Home'
+import Header from './src/component/header'
 
 export default class App extends Component{
   render(){
     return(
       <>
-      <View></View>
+      <Header/>
       </>
     )
   }
